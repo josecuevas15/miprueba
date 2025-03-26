@@ -15,4 +15,19 @@ Hacemos `git add .` para aniadir los archivos al staging. Seguidamente, usando `
 
 Finalmente, hacemos `git push -u origin master` especificando asi la rama local y el repositorio remoto al que queremos hacer el push.
 
-4. Crear una rama
+## 4. Crear una rama
+
+Primeramente creamos una rama llamada **development** usando `git branch development` y posteriormente nos movemos a ella con `git checkout development`
+
+A continuacion, modificamos el archivo **index.js**:
+
+`console.log("Hemos realizado un cambio en la rama 'development' ");`
+
+Hacemos commit `git add` y `git commit`. 
+
+## 5. Hacer un merge
+Volvemos a la rama **master** con `git checkout master`.
+
+A continuacion, una vez en la rama master, hacemos un merge de las dos ramas mediante `git merge development`. Al no haber conflictos, los cambios de **development** se incorporan a la rama **main**.
+
+Finalmente hacemos `git push origin master` en el repositorio de GitHub.
