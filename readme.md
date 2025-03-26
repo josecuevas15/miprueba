@@ -8,4 +8,4 @@ A continuacion, abro una terminal y, tras instalar las dependencias con `npm ins
 ## 2. Subir el repositorio a GitHub 
 Para ello creo un nuevo repositorio en mi cuenta de github. Lo he llamado [miprueba](https://github.com/josecuevas15/miprueba).
 
-A continuacion, abro una terminal y, tras instalar las dependencias con `npm install`, inicializo el repositorio con `git init`.
+Seguidamente, en la terminal de visual, usando `git remote add origin git@github.com:josecuevas15/miprueba.git`  y posteriormente `git push -u origin master`
